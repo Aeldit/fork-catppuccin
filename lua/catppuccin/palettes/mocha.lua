@@ -25,4 +25,7 @@ return {
 	base = "#1e1e2e",
 	mantle = "#181825",
 	crust = "#11111b",
+	acc_light = "#be9ae6",
+	acc_lighter = "#e8ccff",
+	text_alt = "#e69ae6",
 }

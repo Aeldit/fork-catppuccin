@@ -6,14 +6,14 @@ return function(flavour)
 	local transparent_bg = O.transparent_background and "NONE" or C.mantle
 
 	catppuccin.normal = {
-		a = { bg = C.blue, fg = C.mantle, gui = "bold" },
-		b = { bg = C.surface0, fg = C.blue },
+		a = { bg = C.text_alt, fg = C.mantle, gui = "bold" },
+		b = { bg = C.surface0, fg = C.text_alt },
 		c = { bg = transparent_bg, fg = C.text },
 	}
 
 	catppuccin.insert = {
-		a = { bg = C.green, fg = C.base, gui = "bold" },
-		b = { bg = C.surface0, fg = C.green },
+		a = { bg = C.acc_lighter, fg = C.base, gui = "bold" },
+		b = { bg = C.surface0, fg = C.acc_lighter },
 	}
 
 	catppuccin.terminal = {
@@ -22,13 +22,13 @@ return function(flavour)
 	}
 
 	catppuccin.command = {
-		a = { bg = C.peach, fg = C.base, gui = "bold" },
-		b = { bg = C.surface0, fg = C.peach },
+		a = { bg = C.text_alt, fg = C.base, gui = "bold" },
+		b = { bg = C.surface0, fg = C.text_alt },
 	}
 
 	catppuccin.visual = {
-		a = { bg = C.mauve, fg = C.base, gui = "bold" },
-		b = { bg = C.surface0, fg = C.mauve },
+		a = { bg = C.acc_light, fg = C.base, gui = "bold" },
+		b = { bg = C.surface0, fg = C.acc_light },
 	}
 
 	catppuccin.replace = {

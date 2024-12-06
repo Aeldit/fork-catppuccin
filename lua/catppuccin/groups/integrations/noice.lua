@@ -5,11 +5,11 @@ local virtual_text = O.integrations.native_lsp.virtual_text
 function M.get()
 	return { -- Personally the default integration is already pretty good
 		NoiceCmdline = { fg = C.text },
-		NoiceCmdlineIcon = { fg = C.sky, style = virtual_text.information },
+		NoiceCmdlineIcon = { fg = C.acc_lighter, style = virtual_text.information },
 		NoiceCmdlineIconSearch = { fg = C.yellow },
-		NoiceCmdlinePopupBorder = { fg = C.lavender },
+		NoiceCmdlinePopupBorder = { fg = C.text_alt },
 		NoiceCmdlinePopupBorderSearch = { fg = C.yellow },
-		NoiceConfirmBorder = { fg = C.blue },
+		NoiceConfirmBorder = { fg = C.text_alt },
 		NoiceMini = { fg = C.subtext0, blend = 0 },
 		NoiceFormatProgressDone = {
 			bg = O.transparent_background and C.none or U.darken(C.sky, 0.30, C.base),
